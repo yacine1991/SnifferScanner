@@ -1,0 +1,598 @@
+null
+Frame:
+Frame:          number = 0
+Frame:       timestamp = 2013-05-24 10:40:00.257
+Frame:     wire length = 42 bytes
+Frame: captured length = 42 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 
+Eth: 
+Eth:      destination = 3c:df:1e:8c:63:00
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:           source = 78:92:9c:43:db:58
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:             type = 0x806 (2054)
+Eth: 
+Arp:  ******* Arp offset=14 (0xE) length=28 
+Arp: 
+Arp:     hardwareType = 1 [ETHERNET]
+Arp:     protocolType = 0x800 (2048) [IP]
+Arp:    hardware size = 6 bytes
+Arp:    protocol size = 4 bytes
+Arp:          op code = 1 [REQUEST]
+Arp:       sender MAC = 78:92:9c:43:db:58
+Arp:        sender IP = 172.30.75.123
+Arp:       target MAC = 3c:df:1e:8c:63:00
+Arp:        target IP = 172.30.64.1
+Arp: 
+*********************************NEXT PACKET********************************************
+
+Frame:
+Frame:          number = 1
+Frame:       timestamp = 2013-05-24 10:40:00.26
+Frame:     wire length = 60 bytes
+Frame: captured length = 60 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 
+Eth: 
+Eth:      destination = 78:92:9c:43:db:58
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:           source = 3c:df:1e:8c:63:00
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:             type = 0x806 (2054)
+Eth: 
+Arp:  ******* Arp offset=14 (0xE) length=28 
+Arp: 
+Arp:     hardwareType = 1 [ETHERNET]
+Arp:     protocolType = 0x800 (2048) [IP]
+Arp:    hardware size = 6 bytes
+Arp:    protocol size = 4 bytes
+Arp:          op code = 2 [REPLY]
+Arp:       sender MAC = 3c:df:1e:8c:63:00
+Arp:        sender IP = 172.30.64.1
+Arp:       target MAC = 78:92:9c:43:db:58
+Arp:        target IP = 172.30.75.123
+Arp: 
+Data:  ******* Payload offset=42 (0x2A) length=18 
+Data: 
+002a: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00    ................
+003a: 00 00                                                 ..              
+
+*********************************NEXT PACKET********************************************
+
+Frame:
+Frame:          number = 2
+Frame:       timestamp = 2013-05-24 10:40:01.817
+Frame:     wire length = 76 bytes
+Frame: captured length = 76 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 
+Eth: 
+Eth:      destination = 3c:df:1e:8c:63:00
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:           source = 78:92:9c:43:db:58
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:             type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:          version = 4
+Ip:             hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:         diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:           length = 62
+Ip:               id = 0xDF1 (3569)
+Ip:            flags = 0x0 (0)
+Ip:                    0.. = [0] reserved
+Ip:                    .0. = [0] DF: do not fragment: not set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:           offset = 0
+Ip:              ttl = 128 [time to live]
+Ip:             type = 17 [next: User Datagram]
+Ip:         checksum = 0x41EC (16876) [correct]
+Ip:           source = 172.30.75.123
+Ip:      destination = 193.50.50.6
+Ip: 
+Udp:  ******* Udp offset=34 (0x22) length=8 
+Udp: 
+Udp:           source = 64463
+Udp:      destination = 53
+Udp:           length = 42
+Udp:         checksum = 0xD633 (54835) [correct]
+Udp: 
+Data:  ******* Payload offset=42 (0x2A) length=34 
+Data: 
+002a: 81 08 01 00  00 01 00 00  00 00 00 00  03 77 77 77    .............www
+003a: 09 65 75 72  6f 73 70 6f  72 74 02 66  72 00 00 01    .eurosport.fr...
+004a: 00 01                                                 ..              
+
+*********************************NEXT PACKET********************************************
+
+Frame:
+Frame:          number = 3
+Frame:       timestamp = 2013-05-24 10:40:01.832
+Frame:     wire length = 453 bytes
+Frame: captured length = 453 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 
+Eth: 
+Eth:      destination = 78:92:9c:43:db:58
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:           source = 3c:df:1e:8c:63:00
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:             type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:          version = 4
+Ip:             hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:         diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:           length = 439
+Ip:               id = 0x8EA4 (36516)
+Ip:            flags = 0x0 (0)
+Ip:                    0.. = [0] reserved
+Ip:                    .0. = [0] DF: do not fragment: not set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:           offset = 0
+Ip:              ttl = 63 [time to live]
+Ip:             type = 17 [next: User Datagram]
+Ip:         checksum = 0xC0 (192) [correct]
+Ip:           source = 193.50.50.6
+Ip:      destination = 172.30.75.123
+Ip: 
+Udp:  ******* Udp offset=34 (0x22) length=8 
+Udp: 
+Udp:           source = 53
+Udp:      destination = 64463
+Udp:           length = 419
+Udp:         checksum = 0x3709 (14089) [correct]
+Udp: 
+Rtp:  ******* Rtp - "real-time transfer protocol" - offset=42 (0x2A) length=16 protocol suite=VOIP
+Rtp: 
+Rtp:          version = 2
+Rtp:       hasPadding = false
+Rtp:     hasExtension = false
+Rtp:            count = 1
+Rtp:        hasMarker = false
+Rtp:             type = 8
+Rtp:         sequence = 33152
+Rtp:        timestamp = 65540
+Rtp:             ssrc = 524296
+Rtp:             csrc = [I@1293709
+Rtp: 
+Data:  ******* Payload offset=58 (0x3A) length=395 
+Data: 
+003a: 09 65 75 72  6f 73 70 6f  72 74 02 66  72 00 00 01    .eurosport.fr...
+004a: 00 01 c0 0c  00 05 00 01  00 00 00 9b  00 20 06 73    ............. .s
+005a: 74 61 74 69  63 09 65 75  72 6f 73 70  6f 72 74 09    tatic.eurosport.
+006a: 65 64 67 65  73 75 69 74  65 03 6e 65  74 00 c0 2e    edgesuite.net...
+007a: 00 05 00 01  00 00 23 6f  00 11 05 61  31 38 34 36    ......#o...a1846
+008a: 01 67 06 61  6b 61 6d 61  69 c0 49 c0  5a 00 01 00    .g.akamai.I.Z...
+009a: 01 00 00 00  14 00 04 c1  33 e0 06 c0  5a 00 01 00    ........3...Z...
+00aa: 01 00 00 00  14 00 04 c1  33 e0 09 c0  60 00 02 00    ........3...`...
+00ba: 01 00 00 4a  01 00 06 03  6e 31 67 c0  62 c0 60 00    ...J....n1g.b.`.
+00ca: 02 00 01 00  00 4a 01 00  06 03 6e 32  67 c0 62 c0    .....J....n2g.b.
+00da: 60 00 02 00  01 00 00 4a  01 00 06 03  6e 33 67 c0    `......J....n3g.
+00ea: 62 c0 60 00  02 00 01 00  00 4a 01 00  06 03 6e 34    b.`......J....n4
+00fa: 67 c0 62 c0  60 00 02 00  01 00 00 4a  01 00 06 03    g.b.`......J....
+010a: 6e 35 67 c0  62 c0 60 00  02 00 01 00  00 4a 01 00    n5g.b.`......J..
+011a: 06 03 6e 36  67 c0 62 c0  60 00 02 00  01 00 00 4a    ..n6g.b.`......J
+012a: 01 00 06 03  6e 37 67 c0  62 c0 60 00  02 00 01 00    ....n7g.b.`.....
+013a: 00 4a 01 00  06 03 6e 30  67 c0 62 c1  15 00 01 00    .J....n0g.b.....
+014a: 01 00 00 48  02 00 04 c1  6c 58 c3 c0  97 00 01 00    ...H....lX......
+015a: 01 00 00 3d  f1 00 04 c1  33 e0 0a c0  a9 00 01 00    ...=....3.......
+016a: 01 00 00 60  4b 00 04 c1  33 e0 24 c0  bb 00 01 00    ...`K...3.$.....
+017a: 01 00 00 21  05 00 04 c1  33 e0 0a c0  cd 00 01 00    ...!....3.......
+018a: 01 00 00 68  68 00 04 c1  6c 58 c0 c0  df 00 01 00    ...hh...lX......
+019a: 01 00 00 9f  41 00 04 c3  0a 08 3d c0  f1 00 01 00    ....A.....=.....
+01aa: 01 00 00 51  50 00 04 c3  0a 08 36 c1  03 00 01 00    ...QP.....6.....
+01ba: 01 00 00 45  6e 00 04 c1  33 e0 0a                    ...En...3..     
+
+*********************************NEXT PACKET********************************************
+
+Frame:
+Frame:          number = 4
+Frame:       timestamp = 2013-05-24 10:40:01.834
+Frame:     wire length = 66 bytes
+Frame: captured length = 66 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 
+Eth: 
+Eth:      destination = 3c:df:1e:8c:63:00
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:           source = 78:92:9c:43:db:58
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:             type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:          version = 4
+Ip:             hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:         diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:           length = 52
+Ip:               id = 0xDF2 (3570)
+Ip:            flags = 0x2 (2)
+Ip:                    0.. = [0] reserved
+Ip:                    .1. = [1] DF: do not fragment: set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:           offset = 0
+Ip:              ttl = 128 [time to live]
+Ip:             type = 6 [next: Transmission Control]
+Ip:         checksum = 0x53FE (21502) [correct]
+Ip:           source = 172.30.75.123
+Ip:      destination = 193.51.224.6
+Ip: 
+Tcp:  ******* Tcp offset=34 (0x22) length=32 
+Tcp: 
+Tcp:           source = 50282
+Tcp:      destination = 80
+Tcp:              seq = 0x6ED4268E (1859397262)
+Tcp:              ack = 0x0 (0)
+Tcp:             hlen = 8
+Tcp:         reserved = 0
+Tcp:            flags = 0x2 (2)
+Tcp:                    0... .... = [0] cwr: reduced (cwr)
+Tcp:                    .0.. .... = [0] ece: ECN echo flag
+Tcp:                    ..0. .... = [0] ack: urgent, out-of-band data
+Tcp:                    ...0 .... = [0] ack: acknowledgment
+Tcp:                    .... 0... = [0] ack: push current segment of data
+Tcp:                    .... .0.. = [0] ack: reset connection
+Tcp:                    .... ..1. = [1] ack: synchronize connection, startup
+Tcp:                    .... ...0 = [0] fin: closing down connection
+Tcp:           window = 8192
+Tcp:         checksum = 0x5C25 (23589) [correct]
+Tcp:           urgent = 0
+Tcp: 
+Tcp: + NoOp: offset=29 length=1
+Tcp:             code = 1
+Tcp:           length = 1 [implied length from option type]
+Tcp: 
+Tcp: + MSS: offset=20 length=4
+Tcp:             code = 2
+Tcp:           length = 4
+Tcp:              mss = 1460
+Tcp: 
+Tcp: + WindowScale: offset=25 length=3
+Tcp:             code = 3
+Tcp:           length = 3
+Tcp:            scale = 2
+Tcp: 
+Tcp: + SACK_PERMITTED: offset=30 length=2
+Tcp:             code = 4
+Tcp:           length = 2
+Tcp: 
+*********************************NEXT PACKET********************************************
+
+Frame:
+Frame:          number = 5
+Frame:       timestamp = 2013-05-24 10:40:01.835
+Frame:     wire length = 66 bytes
+Frame: captured length = 66 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 
+Eth: 
+Eth:      destination = 78:92:9c:43:db:58
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:           source = 3c:df:1e:8c:63:00
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:             type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:          version = 4
+Ip:             hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:         diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:           length = 52
+Ip:               id = 0x0 (0)
+Ip:            flags = 0x2 (2)
+Ip:                    0.. = [0] reserved
+Ip:                    .1. = [1] DF: do not fragment: set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:           offset = 0
+Ip:              ttl = 63 [time to live]
+Ip:             type = 6 [next: Transmission Control]
+Ip:         checksum = 0xA2F0 (41712) [correct]
+Ip:           source = 193.51.224.6
+Ip:      destination = 172.30.75.123
+Ip: 
+Tcp:  ******* Tcp offset=34 (0x22) length=32 
+Tcp: 
+Tcp:           source = 80
+Tcp:      destination = 50282
+Tcp:              seq = 0x868C0C99 (2257325209)
+Tcp:              ack = 0x6ED4268F (1859397263)
+Tcp:             hlen = 8
+Tcp:         reserved = 0
+Tcp:            flags = 0x12 (18)
+Tcp:                    0... .... = [0] cwr: reduced (cwr)
+Tcp:                    .0.. .... = [0] ece: ECN echo flag
+Tcp:                    ..0. .... = [0] ack: urgent, out-of-band data
+Tcp:                    ...1 .... = [1] ack: acknowledgment
+Tcp:                    .... 0... = [0] ack: push current segment of data
+Tcp:                    .... .0.. = [0] ack: reset connection
+Tcp:                    .... ..1. = [1] ack: synchronize connection, startup
+Tcp:                    .... ...0 = [0] fin: closing down connection
+Tcp:           window = 5840
+Tcp:         checksum = 0xD265 (53861) [correct]
+Tcp:           urgent = 0
+Tcp: 
+Tcp: + NoOp: offset=28 length=1
+Tcp:             code = 1
+Tcp:           length = 1 [implied length from option type]
+Tcp: 
+Tcp: + MSS: offset=20 length=4
+Tcp:             code = 2
+Tcp:           length = 4
+Tcp:              mss = 1386
+Tcp: 
+Tcp: + WindowScale: offset=29 length=3
+Tcp:             code = 3
+Tcp:           length = 3
+Tcp:            scale = 5
+Tcp: 
+Tcp: + SACK_PERMITTED: offset=26 length=2
+Tcp:             code = 4
+Tcp:           length = 2
+Tcp: 
+*********************************NEXT PACKET********************************************
+
+Frame:
+Frame:          number = 6
+Frame:       timestamp = 2013-05-24 10:40:01.835
+Frame:     wire length = 54 bytes
+Frame: captured length = 54 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 
+Eth: 
+Eth:      destination = 3c:df:1e:8c:63:00
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:           source = 78:92:9c:43:db:58
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:             type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:          version = 4
+Ip:             hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:         diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:           length = 40
+Ip:               id = 0xDF3 (3571)
+Ip:            flags = 0x2 (2)
+Ip:                    0.. = [0] reserved
+Ip:                    .1. = [1] DF: do not fragment: set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:           offset = 0
+Ip:              ttl = 128 [time to live]
+Ip:             type = 6 [next: Transmission Control]
+Ip:         checksum = 0x5409 (21513) [correct]
+Ip:           source = 172.30.75.123
+Ip:      destination = 193.51.224.6
+Ip: 
+Tcp:  ******* Tcp offset=34 (0x22) length=20 
+Tcp: 
+Tcp:           source = 50282
+Tcp:      destination = 80
+Tcp:              seq = 0x6ED4268F (1859397263)
+Tcp:              ack = 0x868C0C9A (2257325210)
+Tcp:             hlen = 5
+Tcp:         reserved = 0
+Tcp:            flags = 0x10 (16)
+Tcp:                    0... .... = [0] cwr: reduced (cwr)
+Tcp:                    .0.. .... = [0] ece: ECN echo flag
+Tcp:                    ..0. .... = [0] ack: urgent, out-of-band data
+Tcp:                    ...1 .... = [1] ack: acknowledgment
+Tcp:                    .... 0... = [0] ack: push current segment of data
+Tcp:                    .... .0.. = [0] ack: reset connection
+Tcp:                    .... ..0. = [0] ack: synchronize connection, startup
+Tcp:                    .... ...0 = [0] fin: closing down connection
+Tcp:           window = 4158
+Tcp:         checksum = 0x197E (6526) [correct]
+Tcp:           urgent = 0
+Tcp: 
+*********************************NEXT PACKET********************************************
+
+Frame:
+Frame:          number = 7
+Frame:       timestamp = 2013-05-24 10:40:01.842
+Frame:     wire length = 80 bytes
+Frame: captured length = 80 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 
+Eth: 
+Eth:      destination = 3c:df:1e:8c:63:00
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:           source = 78:92:9c:43:db:58
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:             type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:          version = 4
+Ip:             hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:         diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:           length = 66
+Ip:               id = 0xDF4 (3572)
+Ip:            flags = 0x0 (0)
+Ip:                    0.. = [0] reserved
+Ip:                    .0. = [0] DF: do not fragment: not set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:           offset = 0
+Ip:              ttl = 128 [time to live]
+Ip:             type = 17 [next: User Datagram]
+Ip:         checksum = 0x41E5 (16869) [correct]
+Ip:           source = 172.30.75.123
+Ip:      destination = 193.50.50.6
+Ip: 
+Udp:  ******* Udp offset=34 (0x22) length=8 
+Udp: 
+Udp:           source = 61084
+Udp:      destination = 53
+Udp:           length = 46
+Udp:         checksum = 0x320E (12814) [correct]
+Udp: 
+Data:  ******* Payload offset=42 (0x2A) length=38 
+Data: 
+002a: 98 66 01 00  00 01 00 00  00 00 00 00  08 70 6c 61    .f...........pla
+003a: 74 66 6f 72  6d 07 74 77  69 74 74 65  72 03 63 6f    tform.twitter.co
+004a: 6d 00 00 01  00 01                                    m.....          
+
+*********************************NEXT PACKET********************************************
+
+Frame:
+Frame:          number = 8
+Frame:       timestamp = 2013-05-24 10:40:01.844
+Frame:     wire length = 79 bytes
+Frame: captured length = 79 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 
+Eth: 
+Eth:      destination = 3c:df:1e:8c:63:00
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:           source = 78:92:9c:43:db:58
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [0] IG bit
+Eth:             type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:          version = 4
+Ip:             hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:         diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:           length = 65
+Ip:               id = 0xDF5 (3573)
+Ip:            flags = 0x0 (0)
+Ip:                    0.. = [0] reserved
+Ip:                    .0. = [0] DF: do not fragment: not set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:           offset = 0
+Ip:              ttl = 128 [time to live]
+Ip:             type = 17 [next: User Datagram]
+Ip:         checksum = 0x41E5 (16869) [correct]
+Ip:           source = 172.30.75.123
+Ip:      destination = 193.50.50.6
+Ip: 
+Udp:  ******* Udp offset=34 (0x22) length=8 
+Udp: 
+Udp:           source = 62834
+Udp:      destination = 53
+Udp:           length = 45
+Udp:         checksum = 0x213 (531) [correct]
+Udp: 
+Data:  ******* Payload offset=42 (0x2A) length=37 
+Data: 
+002a: 39 65 01 00  00 01 00 00  00 00 00 00  06 6c 61 79    9e...........lay
+003a: 6f 75 74 09  65 75 72 6f  73 70 6f 72  74 02 66 72    out.eurosport.fr
+004a: 00 00 01 00  01                                       .....           
+
+*********************************NEXT PACKET********************************************
+
+Frame:
+Frame:          number = 9
+Frame:       timestamp = 2013-05-24 10:40:01.844
+Frame:     wire length = 442 bytes
+Frame: captured length = 442 bytes
+Frame:
+Eth:  ******* Ethernet - "Ethernet" - offset=0 (0x0) length=14 
+Eth: 
+Eth:      destination = 78:92:9c:43:db:58
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:           source = 3c:df:1e:8c:63:00
+Eth:                    .... ..0. .... .... = [0] LG bit
+Eth:                    .... ...0 .... .... = [2] IG bit
+Eth:             type = 0x800 (2048) [ip version 4]
+Eth: 
+Ip:  ******* Ip4 - "ip version 4" - offset=14 (0xE) length=20 protocol suite=NETWORK
+Ip: 
+Ip:          version = 4
+Ip:             hlen = 5 [5 * 4 = 20 bytes, No Ip Options]
+Ip:         diffserv = 0x0 (0)
+Ip:                    0000 00.. = [0] code point: not set
+Ip:                    .... ..0. = [0] ECN bit: not set
+Ip:                    .... ...0 = [0] ECE bit: not set
+Ip:           length = 428
+Ip:               id = 0x8EA5 (36517)
+Ip:            flags = 0x0 (0)
+Ip:                    0.. = [0] reserved
+Ip:                    .0. = [0] DF: do not fragment: not set
+Ip:                    ..0 = [0] MF: more fragments: not set
+Ip:           offset = 0
+Ip:              ttl = 63 [time to live]
+Ip:             type = 17 [next: User Datagram]
+Ip:         checksum = 0xCA (202) [correct]
+Ip:           source = 193.50.50.6
+Ip:      destination = 172.30.75.123
+Ip: 
+Udp:  ******* Udp offset=34 (0x22) length=8 
+Udp: 
+Udp:           source = 53
+Udp:      destination = 61084
+Udp:           length = 408
+Udp:         checksum = 0xCCD3 (52435) [correct]
+Udp: 
+Data:  ******* Payload offset=42 (0x2A) length=400 
+Data: 
+002a: 98 66 81 80  00 01 00 03  00 08 00 08  08 70 6c 61    .f...........pla
+003a: 74 66 6f 72  6d 07 74 77  69 74 74 65  72 03 63 6f    tform.twitter.co
+004a: 6d 00 00 01  00 01 c0 0c  00 05 00 01  00 00 00 17    m...............
+005a: 00 1d 03 73  61 6e 07 74  77 69 74 74  65 72 03 63    ...san.twitter.c
+006a: 6f 6d 07 65  64 67 65 6b  65 79 03 6e  65 74 00 c0    om.edgekey.net..
+007a: 32 00 05 00  01 00 00 39  86 00 15 05  65 35 39 30    2......9....e590
+008a: 33 01 67 0a  61 6b 61 6d  61 69 65 64  67 65 c0 4a    3.g.akamaiedge.J
+009a: c0 5b 00 01  00 01 00 00  00 0d 00 04  17 23 71 e0    .[...........#q.
+00aa: c0 61 00 02  00 01 00 00  33 d7 00 06  03 6e 31 67    .a......3....n1g
+00ba: c0 63 c0 61  00 02 00 01  00 00 33 d7  00 06 03 6e    .c.a......3....n
+00ca: 32 67 c0 63  c0 61 00 02  00 01 00 00  33 d7 00 06    2g.c.a......3...
+00da: 03 6e 33 67  c0 63 c0 61  00 02 00 01  00 00 33 d7    .n3g.c.a......3.
+00ea: 00 06 03 6e  34 67 c0 63  c0 61 00 02  00 01 00 00    ...n4g.c.a......
+00fa: 33 d7 00 06  03 6e 35 67  c0 63 c0 61  00 02 00 01    3....n5g.c.a....
+010a: 00 00 33 d7  00 06 03 6e  36 67 c0 63  c0 61 00 02    ..3....n6g.c.a..
+011a: 00 01 00 00  33 d7 00 06  03 6e 37 67  c0 63 c0 61    ....3....n7g.c.a
+012a: 00 02 00 01  00 00 33 d7  00 06 03 6e  30 67 c0 63    ......3....n0g.c
+013a: c1 0a 00 01  00 01 00 00  38 79 00 04  51 34 a0 d3    ........8y..Q4..
+014a: c0 8c 00 01  00 01 00 00  0e 47 00 04  c1 6c 58 c1    .........G...lX.
+015a: c0 9e 00 01  00 01 00 00  03 e3 00 04  c3 0a 08 fe    ................
+016a: c0 b0 00 01  00 01 00 00  14 0f 00 04  58 dd 0f 78    ............X..x
+017a: c0 c2 00 01  00 01 00 00  0e 47 00 04  c3 0a 08 fb    .........G......
+018a: c0 d4 00 01  00 01 00 00  91 ed 00 04  58 dd 0f 72    ............X..r
+019a: c0 e6 00 01  00 01 00 00  14 0f 00 04  c3 0a 08 f7    ................
+01aa: c0 f8 00 01  00 01 00 00  27 b2 00 04  58 dd 0f 73    ........'...X..s
+
+*********************************NEXT PACKET********************************************
